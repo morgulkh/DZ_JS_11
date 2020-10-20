@@ -1,0 +1,62 @@
+.car-container {
+    width: 500px;
+    position: relative;
+}
+.car {
+    width: 500px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.prev {
+    left: 0;
+}
+.next {
+    right: 0;
+}
+.btn {
+    z-index: 1;
+    margin:  auto 0px;
+    position: absolute;
+    top: 50%;
+
+}
+
+.dots-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+}
+.dot {
+    width: 7px;
+    height: 7px;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    margin: 10px;
+    z-index: 1;
+}
+.card {
+    width: 500px;
+    height: auto;
+    border: 1px solid #000;
+}
+.fotorama {
+    width: 500px;
+}
+.video-container{
+    width: 500px;
+    height: 400px;
+    overflow-x: hidden;
+    position: relative;
+}
+#videos-container{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: absolute;
+    transition: left .15s linear;
+    left: 0;
+}
